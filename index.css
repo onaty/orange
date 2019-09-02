@@ -1,0 +1,109 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+.col-8{
+    height:908px;
+    width: 950px;
+    background: url(orangeBg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.col-4{
+    height:900px;
+    width: 650px;
+    background: url(orangeClock.jpg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    height:839px;
+    display: flex;
+}
+
+nav{
+    font-size: 2rem;
+    background-color: #f56e10;
+    font-weight: 500;
+    
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    flex: 10 1 auto;
+    font-weight: bolder;
+    margin-top: 1rem;
+    padding-left: 15px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 1rem;
+}
+nav ul li{
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding-top: 0.5rem;
+    flex: 1px;
+    color: white;
+    margin-top: 1rem;
+}
+nav ul li:hover{
+    background-color: rgb(207, 105, 8);
+    color: white;
+}
+
+@media all and (max-width: 400px){
+    nav ul{
+        flex-direction: colunm;
+    }
+    nav ul li{
+        text-align: center;
+    }
+}
+
+.col-8 h1{
+    position: relative;
+    top: 8rem;
+    padding-left: 11.5rem;
+    font-size: 5.5rem;
+    font-weight: 300;
+
+}
+.col-8 p{
+    position: relative;
+    top: 6rem;
+    margin-left: 12rem;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.col-8 button{
+    margin-top: 5rem;
+    margin-left: 12rem;
+    font-size: 1.5rem;
+    background-color: rgb(207, 171, 8);
+    color: white;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+.col-8 a{
+    margin-left: 2rem;
+    text-decoration: none;
+    color:  rgb(207, 171, 8);
+    font-size: 1.5rem;
+}
